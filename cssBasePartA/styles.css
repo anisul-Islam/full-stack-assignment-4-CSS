@@ -1,0 +1,151 @@
+/* ====================== Default Style ====================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-padding {
+  padding: 0 10%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--text-primary);
+}
+p,
+a,
+li {
+  color: var(--text-body);
+}
+.btn {
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+/* ====================== End of Default Style ====================== */
+/* ====================== Variables ====================== */
+:root {
+  /* colors */
+  --bg-primary: #f0f3f2;
+  --text-primary: #21313c;
+  --text-secondary: #0aad0a;
+  --text-body: #5c6c75;
+}
+/* ====================== End of Variables ====================== */
+/* ====================== Header Section ====================== */
+#header {
+  background-color: var(--bg-primary);
+  text-align: center;
+  padding: 20px 10px;
+}
+.header_icon {
+  color: var(--text-secondary);
+}
+nav {
+  margin-top: 14px;
+}
+.menu_item {
+  font-size: 18px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 22px;
+}
+.item-1 {
+  margin-left: 0;
+}
+/* ====================== End of Header Section ====================== */
+/* ====================== Banner Section ====================== */
+#banner {
+  background-image: url(./assets/slide-1.jpg);
+  height: 70vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.banner_content h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.banner_content p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.banner_content button {
+  margin-top: 8px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* ====================== End of Banner Section ====================== */
+/* ====================== Products Section ====================== */
+.products_content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.all_products {
+  margin-top: 30px;
+}
+.products_content h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.product {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.product img {
+  border-radius: 10px;
+}
+.product_detail {
+  padding-bottom: 30px;
+}
+.product_detail span {
+  font-size: 16px;
+  color: var(--text-body);
+  margin-bottom: 4px;
+}
+.product_detail h3 {
+  margin-bottom: 4px;
+  margin-bottom: 6px;
+}
+.rating {
+  color: rgb(255, 193, 7);
+  margin-bottom: 8px;
+}
+.price {
+  font-size: 24px;
+}
+.price span {
+  text-decoration: line-through;
+}
+.product_detail button {
+  width: 20%;
+}
+/* ====================== End of Products Section ====================== */
+/* ====================== Footer Section ====================== */
+#footer {
+  background: var(--bg-primary);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer_content {
+  text-align: center;
+}
+
+/* ====================== End of Footer Section ====================== */
