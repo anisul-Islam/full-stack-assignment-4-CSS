@@ -1,3 +1,9 @@
+:root {
+  ---nav-back:#e9e9e9;
+  ---bg-white:white;
+  ---hover-nav:#c9c8c8;
+  ---active:#2196F3;
+}
 * {box-sizing: border-box;
 font-family: "Roboto", sans-serif;}
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
@@ -8,7 +14,7 @@ body {
 }
 .nav {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color:var(---nav-back);
 }
 
 .nav a {
@@ -20,7 +26,7 @@ body {
 }
 
 .nav a:hover {
-  background-color: #c9c8c8;
+  background-color:var(---hover-nav) ;
 }
 
 
@@ -41,20 +47,19 @@ body {
   margin-top: 8px;
   margin-right: 16px;
   margin-left: 8px;
-  background: #ddd;
+  background: var(---hover-nav);
   font-size: 17px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  background-color: #ddd;
   
 }
 
 .nav .nav-right button:hover {
-  background:#2196F3;
+  background:var(---active);
 }
 .nav .active {
-  background-color: #2196F3;
+  background-color:var(---active);
 }
 #profile{
   float: right;
