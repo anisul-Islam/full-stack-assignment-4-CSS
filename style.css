@@ -2,7 +2,7 @@
   ---nav-back:#e9e9e9;
   ---bg-white:white;
   ---hover-nav:#c9c8c8;
-  ---active:#2196F3;
+  ---active:#ff6539;
 }
 * {box-sizing: border-box;
 font-family: "Roboto", sans-serif;}
@@ -15,6 +15,7 @@ body {
 .nav {
   overflow: hidden;
   background-color:var(---nav-back);
+  
 }
 
 .nav a {
@@ -36,6 +37,7 @@ body {
 .nav input[type=text] {
   padding: 6px;
   margin-top: 8px;
+  margin-bottom: 8px;
   font-size: 17px;
   width:200px;
   border-radius: 5px;
@@ -47,6 +49,7 @@ body {
   margin-top: 8px;
   margin-right: 16px;
   margin-left: 8px;
+  margin-bottom: 8px;
   background: var(---hover-nav);
   font-size: 17px;
   border: none;
@@ -63,4 +66,117 @@ body {
 }
 #profile{
   float: right;
+}
+.sidebar{
+  width: 5px;
+  height: 80%;
+  margin-left:80px;
+  background-color: #a70808;
+}
+.banner button{
+  background-color: var(---active);
+  top: 40%;
+  left: 10%;
+  position: absolute;
+  padding: 10px 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+  transition: 1s;
+}
+.banner img{
+  width: 100%;
+  position: relative;
+  height: 400px;
+  
+  
+}
+.banner button:hover{
+  background-color: #f14c1e;
+  border: .5px solid rgb(20, 20, 20);
+}
+.ads{
+  padding: 0 50px;
+}
+.left-div{
+  width:35%;
+  height: 400px;
+  background-color:#ffffff;
+  
+  
+  
+}
+.right-div{
+  width: 65%;
+  height: 400px;
+  background-color: #f14c1e;
+  display: inline;
+  box-shadow: 3px 3px 8px #888888;;
+  
+}
+.ads div {
+  float: left;
+  margin-bottom: 100px;
+}
+.left-div a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.left-div input{
+  width: 40%;
+  height: 36px;
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.left-div form{
+  text-align: center;
+}
+.left-div form button{
+  background-color: var(---hover-nav);
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  width:120px;
+  border-radius: 5px;
+  
+}
+.keywords{
+  padding: 10px;
+}
+.product img{
+  height: 80%;
+  width: 100%;
+}
+.left-div span{
+  color: #f14c1e;
+}
+.product div{
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin: 20px 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.keywords button{
+  margin: 5px 10px;
+}
+.foot{
+  height: 500px;
+  width: 100%;
+  background-color: #ffffff;
+}
+footer{
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 1.5em;
+  background-color: #f14c1e;
+  text-align: center;
 }
