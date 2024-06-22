@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* CSS Variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+    --header-font: 'Roboto', sans-serif;
+    --text-color: #333;
+}
+
+/* Global Styles */
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-family: var(--header-font);
+}
+
+/* Main Product Display Area */
+.product-display {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+/* Product Card Design */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.product-card h2 {
+    font-family: var(--header-font);
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.product-card p {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.product-card .price {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.product-card button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8;
+    color: #666;
+    text-align: center;
+    padding: 1em 0;
+    border-top: 1px solid #ddd;
+}
