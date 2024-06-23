@@ -30,37 +30,6 @@ body {
   background-color:var(---hover-nav) ;
 }
 
-
-.nav-right {
-  float: right;
-}
-.nav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  font-size: 17px;
-  width:200px;
-  border-radius: 5px;
-  border:none ;
-}
-.nav .nav-right button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  margin-left: 8px;
-  margin-bottom: 8px;
-  background: var(---hover-nav);
-  font-size: 17px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  
-}
-
-.nav .nav-right button:hover {
-  background:var(---active);
-}
 .nav .active {
   background-color:var(---active);
 }
@@ -104,6 +73,7 @@ body {
   width:35%;
   height: 400px;
   background-color:#ffffff;
+  overflow: hidden;
   
   
   
@@ -146,37 +116,94 @@ body {
   font-size: 17px;
   width:120px;
   border-radius: 5px;
+  background-color: #ff6539;
+  
+}
+.left-div button:active{
+  background-color: #f14c1e;
   
 }
 .keywords{
   padding: 10px;
 }
+.keywords button{
+  margin: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  padding: 2px;
+}
 .product img{
-  height: 80%;
-  width: 100%;
+  height: 70%;
+  width: 95%;
 }
 .left-div span{
   color: #f14c1e;
 }
 .product div{
   width: 400px;
-  height: 400px;
+  height: 500px;
   float: left;
   margin: 20px 30px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
 }
-.keywords button{
-  margin: 5px 10px;
-}
-.foot{
-  height: 500px;
-  width: 100%;
-  background-color: #ffffff;
-}
+
+
 footer{
   width: 100%;
   padding: 5px 10px;
   font-size: 1.5em;
   background-color: #f14c1e;
   text-align: center;
+}
+.product h1{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.product .price{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.product .price-button{
+  background-color: rgba(255, 0, 0, 0.644);
+  border-radius: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 5px 30px;
+  color: #ffffff;
+  border: none;
+}
+.price-button:hover{
+    background-color: rgba(255, 0, 0, 0.938);
+ }
+.price-button:active{
+    background-color: rgb(100, 12, 12);
+}
+.foot{
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    
+  }
+.foot iframe{
+  float: left;
+}
+.contact{
+  padding: 1px;
+  margin: 10px 20px;
+  
+}
+
+.message-text{
+  resize: none;
+}
+.foot form {
+  padding: 70px 0px;
+  text-align: center;
+  
+}
+.address{
+  float: left;
+  margin: 0 30px;
 }
