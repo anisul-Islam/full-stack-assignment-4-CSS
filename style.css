@@ -1,0 +1,216 @@
+:root {
+  ---nav-back:#464646;
+  ---bg:white;
+  ---btnclr:rgb(83, 83, 83);
+  ---hover-:#000000;
+  ---active:#2648CF;
+}
+* {box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+text-decoration: none;}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+  margin: 0;
+  background-color: white;
+  
+}
+.nav {
+  overflow: hidden;
+  background-color:var(---nav-back);
+  
+}
+
+.nav a {
+  float: left;
+  color: var(---bg);
+  padding: 14px 20px;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.nav a:hover {
+  background-color:var(---hover-);
+  color: #ffffff;
+}
+
+.nav .active {
+  background-color:var(---active);
+}
+#profile{
+  float: right;
+}
+.banner button{
+  background-color: var(---active);
+  top: 40%;
+  left: 10%;
+  position: absolute;
+  padding: 10px 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+  transition: 1s;
+}
+.banner img{
+  width: 100%;
+  position: relative;
+  height: 400px;
+  
+  
+}
+.banner button:hover{
+  background-color: blue;
+  border: .5px solid rgb(20, 20, 20);
+}
+.ads{
+  padding: 0 50px;
+}
+.left-div{
+  width:35%;
+  height: 400px;
+  background-color:#ffffff;
+  overflow: hidden;
+  
+  
+  
+}
+.right-div{
+  width: 65%;
+  height: 400px;
+  display: inline;
+  box-shadow: 3px 3px 8px #888888;;
+  
+}
+.ads div {
+  float: left;
+  margin-bottom: 100px;
+}
+.left-div a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.left-div input{
+  width: 40%;
+  height: 36px;
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.left-div form{
+  text-align: center;
+}
+.left-div form button{
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  width:120px;
+  border-radius: 5px;
+  background-color: var(---btnclr);
+  color: #ffffff;
+  
+}
+.left-div button:active{
+  background-color: black;
+  color: #ffffff;
+  
+}
+.keywords{
+  padding: 10px;
+}
+.keywords button{
+  margin: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 10px;
+}
+
+.keywords a{
+  color: #000000;
+}
+.keywords a:hover{
+  background-color: #464646;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.product img{
+  height: 70%;
+  width: 95%;
+}
+.left-div span{
+  color: var(---active);
+}
+.product div{
+  width: 400px;
+  height: 500px;
+  float: left;
+  margin: 20px 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+}
+
+
+footer{
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 1.5em;
+  background-color: var(---nav-back);
+  text-align: center;
+  color: #ffffff;
+}
+.product h1{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.product .price{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.product .price-button{
+  background-color: var(---btnclr);
+  border-radius: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 5px 30px;
+  color: #ffffff;
+  border: none;
+}
+.price-button:hover{
+    background-color: rgba(0, 0, 0, 0.938);
+ }
+.price-button:active{
+    background-color: rgb(110, 110, 110);
+}
+.foot{
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    
+  }
+.foot iframe{
+  float: left;
+}
+.contact{
+  padding: 1px;
+  margin: 10px 20px;
+  
+}
+
+.message-text{
+  resize: none;
+}
+.foot form {
+  padding: 70px 0px;
+  text-align: center;
+  
+}
+.address{
+  float: left;
+  margin: 0 30px;
+}
