@@ -1,8 +1,9 @@
 :root {
-  ---nav-back:#e9e9e9;
-  ---bg-white:white;
-  ---hover-nav:#c9c8c8;
-  ---active:#ff6539;
+  ---nav-back:#464646;
+  ---bg:white;
+  ---btnclr:rgb(83, 83, 83);
+  ---hover-:#000000;
+  ---active:#2648CF;
 }
 * {box-sizing: border-box;
 font-family: "Roboto", sans-serif;}
@@ -20,14 +21,15 @@ body {
 
 .nav a {
   float: left;
-  color: black;
+  color: var(---bg);
   padding: 14px 20px;
   font-size: 20px;
   transition: .3s;
 }
 
 .nav a:hover {
-  background-color:var(---hover-nav) ;
+  background-color:var(---hover-);
+  color: #ffffff;
 }
 
 .nav .active {
@@ -35,12 +37,6 @@ body {
 }
 #profile{
   float: right;
-}
-.sidebar{
-  width: 5px;
-  height: 80%;
-  margin-left:80px;
-  background-color: #a70808;
 }
 .banner button{
   background-color: var(---active);
@@ -63,7 +59,7 @@ body {
   
 }
 .banner button:hover{
-  background-color: #f14c1e;
+  background-color: blue;
   border: .5px solid rgb(20, 20, 20);
 }
 .ads{
@@ -81,7 +77,6 @@ body {
 .right-div{
   width: 65%;
   height: 400px;
-  background-color: #f14c1e;
   display: inline;
   box-shadow: 3px 3px 8px #888888;;
   
@@ -109,18 +104,19 @@ body {
   text-align: center;
 }
 .left-div form button{
-  background-color: var(---hover-nav);
   padding: 6px;
   margin-top: 8px;
   margin-bottom: 8px;
   font-size: 17px;
   width:120px;
   border-radius: 5px;
-  background-color: #ff6539;
+  background-color: var(---btnclr);
+  color: #ffffff;
   
 }
 .left-div button:active{
-  background-color: #f14c1e;
+  background-color: black;
+  color: #ffffff;
   
 }
 .keywords{
@@ -130,14 +126,23 @@ body {
   margin: 5px 10px;
   border: none;
   border-radius: 15px;
-  padding: 2px;
+  padding: 4px 10px;
+}
+
+.keywords a{
+  color: #000000;
+}
+.keywords a:hover{
+  background-color: #464646;
+  color: #ffffff;
+  border-radius: 15px;
 }
 .product img{
   height: 70%;
   width: 95%;
 }
 .left-div span{
-  color: #f14c1e;
+  color: var(---active);
 }
 .product div{
   width: 400px;
@@ -153,8 +158,9 @@ footer{
   width: 100%;
   padding: 5px 10px;
   font-size: 1.5em;
-  background-color: #f14c1e;
+  background-color: var(---nav-back);
   text-align: center;
+  color: #ffffff;
 }
 .product h1{
   font-size: 1.2rem;
@@ -166,7 +172,7 @@ footer{
   font-weight: bolder;
 }
 .product .price-button{
-  background-color: rgba(255, 0, 0, 0.644);
+  background-color: var(---btnclr);
   border-radius: 15px;
   margin-left: 10px;
   font-size: 20px;
@@ -175,10 +181,10 @@ footer{
   border: none;
 }
 .price-button:hover{
-    background-color: rgba(255, 0, 0, 0.938);
+    background-color: rgba(0, 0, 0, 0.938);
  }
 .price-button:active{
-    background-color: rgb(100, 12, 12);
+    background-color: rgb(110, 110, 110);
 }
 .foot{
     height: 500px;
