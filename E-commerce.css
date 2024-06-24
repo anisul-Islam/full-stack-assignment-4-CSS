@@ -1,0 +1,66 @@
+/* variable declaration section starts here */
+:root{
+    --color:#F7F8F7;
+    --border-color:black;
+    --color-green:#00FA00;
+}
+/* variable declaration section ends here */
+
+/* applying style whole body section that starts here */
+body{
+    color: var(--color);
+    background-color: #37403a;
+    font-family: "Playwrite NG Modern", sans-serif;
+    margin: 0;
+}
+/* applying style whole body section that ends here */
+
+/* Container section starts here */
+.container{
+    border: .1rem solid var(--color);
+    width: 300px;
+    padding: .5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+/* Container section ends here */
+
+/* product description section starts here */
+.product-description{
+    border: .15rem dotted var(--color);
+    margin: 0px;
+    padding: 0.5rem;
+}
+/* product description section ends here */
+
+/* nested attribute starts here for card, h1 and footer */
+.card, h1,footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* nested attribute ends here for card, h1 and footer */
+
+h1{
+    background-color: var(--color-green);
+    color: #161313;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+p{
+    font-size: large;
+}
+
+.copy-right{
+    color: var(--color-green);
+}
+
+button{
+    cursor: pointer;
+}
+
+footer{
+    border: .2rem solid var(--color);
+    margin: .3rem;
+}
