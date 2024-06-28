@@ -4,11 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS E-commerce App Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
+    <!-- section: header -->
+    <header>
+        <nav class="navber">
+            <ul type="none">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
 
+        <!--section: product display area -->
+
+        <section id="product">
+            <h1>Welcome to My Mobile Shop</h1>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="images/iPhone15.jpg" alt="iPhone15">
+                    <h2>iPhone 15 Pro Max</h2>
+                    <p class="price">1199$</p>
+                    <p>Meet the Apple iPhone 15 Pro Max.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="product-item">
+                    <img src="images/iPhone14.jpg" alt="iPhone14">
+                    <h2>iPhone 14 pro max</h2>
+                    <p class="price">1099$</p>
+                    <p>Your new iPhone awaits. Make it yours.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="product-item">
+                    <img src="images/iPhone13.webp" alt="iPhone13">
+                    <h2>iPhone 13 pro max</h2>
+                    <p class="price">999$</p>
+                    <p>World Best Gaming Phone</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="product-item">
+                    <img src="images/motorola edge 50.jpg" alt="motorola">
+                    <h2>Motorola Edge 50 fusion 5G</h2>
+                    <p class="price">599$</p>
+                    <p>Budget killer flagship phone</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="product-item"><img src="images/Galaxy S24.jpg" alt="samsung">
+                    <h2>Samsung S23 Ultra</h2>
+                    <p class="price">1199$</p>
+                    <p>Best zooming camera Phone</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <ul type="none">
+                <li> <a href="https://www.facebook.com/profile.php?id=100014427856879&mibextid=LQQJ4d"><i
+                            class="fa-brands fa-facebook"> </i>
+                        Visit my Facebook</a>
+                </li>
+                <li> <a href="https://www.facebook.com/profile.php?id=100014427856879&mibextid=LQQJ4d">
+                        <i class="fa-brands fa-linkedin"></i>
+                        Visit my Linkedin</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- section: Footer -->
+    <footer id="footer">
+        <p> &copy; 2024 Ashraful. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>

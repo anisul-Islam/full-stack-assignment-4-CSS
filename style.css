@@ -1,0 +1,119 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles or utilities*/
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #e4efe9;
+    margin: 0;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --grey: grey;
+    --cyan: cyan;
+    --green: green;
+}
+
+.navber {
+    overflow: hidden;
+    background-color: #b0b0e6;
+}
+
+.navber a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navber a:hover {
+    background-color: #ddd;
+    color: var(--primary-color);
+}
+
+.navber a.active {
+    background-color: #04aa6d;
+    color: var(--secondary-color);
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.product-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+}
+
+.product-item {
+    margin-left: 25px;
+    margin-top: 25px;
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 20px;
+}
+
+.product-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.product-item p,
+h2 {
+    text-align: center;
+
+}
+
+.product-item button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.product-item button:hover {
+    opacity: 0.5;
+}
+
+
+
+.price {
+    color: var(--grey);
+    font-size: 25px;
+}
+
+#contact {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#contact ul,
+li :hover {
+    opacity: 0.7;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+
+#footer {
+    background-color: var(--cyan);
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
