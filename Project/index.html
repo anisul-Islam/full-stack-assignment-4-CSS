@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="fruit, bikroy, sourov chandra" />
+    <meta name="description" content="Actually trust in the main thing" />
+    <meta http-equiv="author" content="sourov chandra" />
+
+    <title>E-commerce Project</title>
+
+    <!--Font Awesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!--Section: navbar-->
+
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#product-list">Product</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Welcome to My E-commerce Site</h1>
+      </section>
+      <!-- Section: Intro section  -->
+
+      <section id="product-list" class="card">
+        <h2>List of Products</h2>
+        <div class="product__grid">
+          <div class="product__item">
+            <p class="product__name">Apple</p>
+            <p class="product__price">Price: Per kg 250 TK</p>
+          </div>
+          <div class="product__item">
+            <p class="product__name">Lemon</p>
+            <p class="product__price">Price: Per kg 50 TK</p>
+          </div>
+          <div class="product__item">
+            <p class="product__name">Strawberry</p>
+            <p class="product__price">Price: Per kg 20 TK</p>
+          </div>
+          <div class="product__item">
+            <p class="product__name">Grape</p>
+            <p class="product__price">Price: Per kg 250 TK</p>
+          </div>
+          <div class="product__item">
+            <p class="product__name">Blueberry</p>
+            <p class="product__price">Price: Per kg 250 TK</p>
+          </div>
+          <div class="product__item">
+            <p class="product__name">Mango</p>
+            <p class="product__price">Price: Per kg 250 TK</p>
+          </div>
+          <div class="product__item">
+            <p class="product__name">Cherry</p>
+            <p class="product__price">Price: Per kg 250 TK</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact Us</h2>
+
+        <form action="https://formspree.io/f/mkgwnbjj" method="POST">
+          
+          <div>
+            <label for="name">Name: </label>
+          <input type="text" id="name" name="name" />
+          </div>
+
+          <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" />
+          </div>
+
+            <label for="message">Message: </label>
+            <textarea name="message"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <p id="copyright">Copyright reserved by &copy; Sourov2024</p>
+        <p>Developed with &hearts;</p>
+      </div>
+
+      <div class="social-media">
+        <h3>Follow me</h3>
+
+        <ul>
+          <li>
+            <a href="" target="_blank"
+              ><i class="fa-brands fa-facebook"> </i
+            ></a>
+          </li>
+
+          <li>
+            <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
