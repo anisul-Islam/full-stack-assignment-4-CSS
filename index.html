@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <title>My E-commerce product page</title>
+</head>
+<body>
+    <main>
+
+        <div id="search-button">
+            <label for="products">Search for Products</label>
+            <input type="search" id="products" name="products">
+            <button type="submit">Search</button>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Men" target="_blank">Men's & Boy's Fashion</a></li>
+                <li><a href="#Women" target="_blank">Women's and Girl's Fashion</a></li>
+                <li><a href="#Health" target="_blank">Health & Beauty</a></li>
+                <li><a href="#contact" target="_blank">Contact</a></li>
+            </ul>   
+        </nav>
+        
+        <section id="home">
+            <header>
+                <div>
+                    <img src="assests/E-commerce.jpg" alt="E-commerce"><br>
+                    <h1><strong>Eclectic</strong></h1>
+                    <p><strong>You can find here latest stylish clothes and authentic Skin products.
+                    Our motto is to Serve the community.</strong>
+                    </p>
+                </div>
+            </header>
+        </section>
+        <!--Section: product display area-->
+        <section id="Men">
+            <h2>Men's & Boy's Fashion</h2>
+            <strong>Winter collections</strong>
+            
+                <div class="Men">
+                    <img src="assests/leather-jacket.jpg" alt="leather-jacket" height="100" width="120"><br>
+                    <span>leather-jacket</span><br>
+                    <strong>$500tk</strong> 
+                </div>
+                <div class="Men">
+                    <img src="assests/denim-jacket.jpg" alt="Denim-jacket" height="100" width="120"><br>
+                    <span>Denim-jacket</span> <br>
+                    <strong>$600tk</strong>
+                </div>
+                <div class="Men">
+                    <img src="assests/Hoodie.jpg" alt="Hoodie" height="90" width="120"><br>
+                    <span>Hoodie</span><br>
+                    <strong>$450tk</strong>
+                </div>
+                <div class="Men">
+                    <img src="assests/Sweater.jpg" alt="Sweater" height="100" width="120"><br>
+                    <span>Sweater</span><br>
+                    <strong>400tk</strong>
+                </div>
+            </section>
+            <section id="Women">
+                <h2>Women's & Girl's Fashion</h2>
+                <strong>Winter collections</strong>
+                <div class="Women">
+                    <img src="assests/cardigan.jpg" alt="Cardigan" height="100"><br>
+                    <span>Cardigan</span><br>
+                    <strong>$790tk</strong>
+                </div>
+                <div class="Women">
+                    <img src="assests/Scarf.jpg" alt="Scarf" height="100" width="140"><br>
+                    <span>Scarf</span><br>
+                    <strong>$150tk</strong>
+                </div>
+                <div class="Women">
+                    <img src="assests/Hoodie.jpg" alt="Hoodie" height="100" width="140"><br>
+                    <span>Hoodie</span><br>
+                    <strong>$450tk</strong>
+                </div>
+                   
+            </section>
+            <section id="Health">
+                <h2>Health & Beauty</h2>
+                <strong>Skin care</strong>
+                <div class="Health">
+                    <img src="assests/garnier.jpg" alt="Garnier" height="100" width="100"><br>
+                    <span>Garnier Facewash</span><br>
+                    <strong>$350tk</strong>
+                </div>
+                <div class="Health">
+                    <img src="assests/fair & handsome.jpg" alt="Fair & Handsome" height="100" width="130"><br>
+                    <span>Fair & Handsome</span><br>
+                    <strong>$200tk</strong>
+                </div>
+            </section>
+
+        <form id="information" action="https://formspree.io/f/xrbzbjky"
+        method="POST">
+            <div class="personal-info">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="personal-info">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="text">
+            </div>
+            <div class="personal-info">
+                <lebel for="experience">Tell us your experience</lebel>
+                <textarea name="message" id="experience" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+            
+        <!--Section:Footer-->
+        <footer id="contact">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/" ><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+            </ul>
+            <address>
+                <a href="tel: 01625747689">Call me</a>
+                <a href="mailto: Mdmohin142@gmail.com">Email me</a><br/>
+                Hospital-road, West-bagichaghaon,Cumilla
+            </address>
+            
+            <p>All rights reserved by the &copy; owner</p>
+        </footer>
+    </main>
+</body>
+</html> 

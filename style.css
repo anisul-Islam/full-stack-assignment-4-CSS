@@ -1,0 +1,113 @@
+:root {
+    --primary-colour:#4caf50;
+    --secondary-colour:#fff;
+    --background-color:#f4f4f4;
+    --card-background-color: #fff;
+    --card-shadow: rgba(0,0,0,0.2);
+    
+}
+main {
+    margin: auto;
+    padding: auto;
+}
+body {
+    background-color: var(--background-color);
+    
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    margin: 0;
+    padding: 0;
+}
+#home {
+    text-align: center;
+}
+
+
+p {
+    color: yellowgreen;
+}
+h1{
+    color: gold;
+}
+
+ul {
+    text-align: center;
+    color: olive;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+#search-button {
+    text-align: center;
+    color: brown;
+    
+}
+
+button {
+    padding: 4px;
+
+}
+
+button:hover {
+    background-color: gray;
+    border: 2px solid;
+    cursor: pointer;
+}
+#Men {
+    text-align: center;
+}
+.Men {
+    border-style: solid;
+    height: fit-content;
+    width: fit-content;
+    margin: 0.5rem 0 1rem 32rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--card-background-color);
+}
+
+#Women {
+    text-align: center;
+}
+.Women {
+    border-style: solid;
+    height: fit-content;
+    width: fit-content;
+    margin: 0.5rem 0 1rem 32rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--card-background-color)
+}
+
+#Health {
+    text-align: center;
+}
+.Health {
+    border-style: solid;
+    height: fit-content;
+    width: fit-content;
+    margin: 0.5rem 0 1rem 32rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--card-background-color);
+}
+
+#contact {
+    text-align: center;
+}
+
+#information {
+    text-align: center;
+}
+
+.personal-info {
+    border: 1px solid;
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+    border-radius: 1rem;
+}
+
+address {
+    color: chocolate;
+}
