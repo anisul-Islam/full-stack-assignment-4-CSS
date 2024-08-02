@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple Ecommerce Site">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="Ecommerce Site">
+    <title>Simple Ecommerce Site</title>
+<!-- Fontawesome link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Google font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            
+                <div class="nav-bar">
+                    <nav>
+                    
+                        <ul class="nav-items">
+                                <li>
+                                    <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="register">Register</a>
+                                        </li>
+                                    <li>
+                                        <a href="login">Log In</a>
+                                    </li>
+                                    <li>
+                                        <a href="logout">Log Out</a>
+                                    </li>
+                                    <li>
+                                        <a href="contract">Contract Us</a>
+                                    </li>
+                        </ul>
+                    
+                    </nav>
+                </div>
+            
+        </header>
+            
+            <!-- Main Starts Here -->
+        <main>
+            <div class="products">
+                <div class="product-1 card">
+                   <h2 class="card-header">IMAC</h2>
+                   <img src="images/imac3.jpg" alt="Computer">
+                   <P class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, non velit quia numquam odit reprehenderit aut aliquam deserunt dignissimos. Distinctio laboriosam doloremque quisquam dignissimos ut sint temporibus. Sit numquam cupiditate itaque illum non asperiores voluptate corporis at! Excepturi, odit veritatis facilis natus aliquid aliquam non, ratione eius tempore quia illo cumque distinctio totam ut praesentium reprehenderit a ab beatae itaque, similique dolorem nobis molestias adipisci. Ex placeat est beatae sunt in dolor perferendis cumque. Perspiciatis nisi aut unde quasi velit dolorum expedita dolor accusantium dolore error consequuntur, incidunt eum vel officiis pariatur asperiores ipsum ipsam nihil nemo quam vitae illum.
+                   </P>
+                   <button type="button" class="product-btn">ORDER NOW</button>
+                </div>
+                <div class="product-2 card">
+                    <h2 class="card-header">TABLET</h2>
+                    <img src="images/tablet.jpg" alt="Tablet">
+                    <P class="product-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, non velit quia numquam odit reprehenderit aut aliquam deserunt dignissimos. Distinctio laboriosam doloremque quisquam dignissimos ut sint temporibus. Sit numquam cupiditate itaque illum non asperiores voluptate corporis at! Excepturi, odit veritatis facilis natus aliquid aliquam non, ratione eius tempore quia illo cumque distinctio totam ut praesentium reprehenderit a ab beatae itaque, similique dolorem nobis molestias adipisci. Ex placeat est beatae sunt in dolor perferendis cumque. Perspiciatis nisi aut unde quasi velit dolorum expedita dolor accusantium dolore error consequuntur, incidunt eum vel officiis pariatur asperiores ipsum ipsam nihil nemo quam vitae illum.
+                       </P>
+                       <button type="button" class="product-btn">ORDER NOW</button>
+                </div>
+                <div class="product-3 card">
+                    <h2 class="card-header">LAPTOP</h2>
+                    <img src="images/Laptop2.jpg" alt="Laptop">
+                    <P class="product-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, non velit quia numquam odit reprehenderit aut aliquam deserunt dignissimos. Distinctio laboriosam doloremque quisquam dignissimos ut sint temporibus. Sit numquam cupiditate itaque illum non asperiores voluptate corporis at! Excepturi, odit veritatis facilis natus aliquid aliquam non, ratione eius tempore quia illo cumque distinctio totam ut praesentium reprehenderit a ab beatae itaque, similique dolorem nobis molestias adipisci. Ex placeat est beatae sunt in dolor perferendis cumque. Perspiciatis nisi aut unde quasi velit dolorum expedita dolor accusantium dolore error consequuntur, incidunt eum vel officiis pariatur asperiores ipsum ipsam nihil nemo quam vitae illum.
+                       </P>
+                       <button type="button" class="product-btn">ORDER NOW</button>
+                </div>
+            </div>
+
+            <section id="contactme" class="card">
+               <div>
+                <h2>Contact Me :</h2>
+            
+                <form action="https://formspree.io/f/xoqggqne"
+                method="POST">
+                <fieldset>
+                    <legend>Personal Information :</legend>
+                    <div>
+                        <label for="fname">First Name : </label>
+                     <input type="text" id="fname" name="fname" autocomplete="given-name" required>
+                     <label for ="lname">Last Name : </label>
+                     <input type="text" id="lname" name="lname" autocomplete="family-name" required>
+                     </div>
+                
+                     <div>
+                        <label for="email">Email : </label>
+                     <input type="email" id="email" name="email" autocomplete="off" required>
+                     </div>
+                     <div>
+                        <label for="age">Age : </label>
+                     <input type="number" id="age" name="age" min="18" max="45" autocomplete="bday-month" required>
+                     </div>
+                </fieldset>
+                 
+                 <div>
+                    <label for="message">Message Me :</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                 </div>
+               </div>
+            
+                 <div class="form__button">
+                    <label for="submit_button">
+                    <button id="submit_button" type="submit">Submit</button>
+                    </label>
+               
+                    <label for="reset_button">
+                    <button id="reset_button" type="reset">Clear</button>
+                    </label>
+                 </div>
+            
+                </form>
+            </section>
+            <br> <br>
+        
+        </main>
+         <!-- Main Ends Here -->
+        <!-- footer Start Here -->
+    <footer id="footer">
+        <div class="copy-right">
+            
+                &copy; Copyright 2024 Noyon Enterprise. All right reserved.
+            
+        </div>
+        <div class="menu">
+            <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="register">Register</a>
+                            </li>
+                        <li>
+                            <a href="login">Log In</a>
+                        </li>
+                        <li>
+                            <a href="logout">Log Out</a>
+                        </li>
+                        <li>
+                            <a href="contract">Contract Us</a>
+                        </li>
+            
+            </ul>
+        </div>
+        <div class="social-media">
+            <ul>
+                    <li class="icon">
+                        <img src="images/facebook.png" alt="Facebook" style="width: 40px; height: 40px;">
+                    
+                        </li>
+                        <li class="icon">
+                        <img src="images/youtube.png" alt="youtube" style="width: 40px; height: 40px;">
+                            </li>
+                        <li class="icon">
+                        <img src="images/linkedin.png" alt="Linkedin" style="width: 40px; height: 40px;">
+                        </li>
+                        <li class="icon">
+                        <img src="images/twitter.png" alt="Twitter" style="width: 40px; height: 40px;">
+                        </li>
+                        
+                    </ul>
+                </div>
+           
+    
+    </footer>
+ <!-- footer Ends Here -->
+    
+</body>
+</html>
