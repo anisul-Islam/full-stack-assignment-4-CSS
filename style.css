@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 :root{
@@ -23,18 +23,19 @@ header,nav{
     background: var(--Primary-color);
     
 }
+header,nav,ul{
+    background-color: #727272;
+}
 header,nav,ul,li{
     list-style: none;
     display: inline-block;
     
 }
 header,nav,ul,li,a{
-    color:var(--text-color);
-    text-decoration: none;
-    padding:var(--padding);
     font-size: 20px;
     text-align:center;
     font-weight: 500px;
+    color: white;
 }
 
 /* header Section Section End*/
@@ -50,7 +51,11 @@ header,nav,ul,li,a{
     margin:1% 1%;
     float: left;
     border-radius: 10px;
-
+    transition: .2s all linear;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px black,-5px 5px 10px black;
+    transition: .2s all linear;
 }
 /* Common card  */
 
@@ -83,20 +88,24 @@ button{
     background: #8d02c4;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .2s all linear;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 button:hover{
-    background-color: #3c0153;
+    background-color: #3a0250;
+    transition: .2s all linear;
 }
 /* Footer Section Start */
 
 .F-contant{
 display: inline-block;
-background: #9e5757;
+background: #000000;
 width: 100%;
 }
 .p{
     text-align: center;
-    font-size: 50px;
+    font-size: 18px;
     color: #ffffff;
    
 }
