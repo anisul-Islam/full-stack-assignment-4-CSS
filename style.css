@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 :root{
@@ -10,6 +10,10 @@
     --text-color:#ffffffdd;
     --padding:8px 25px 8px 25px;
     --margin: 1rem;
+}
+body{
+    height:100%;
+    width: 100%;
 }
 
 /* header Section Section Start*/
@@ -78,7 +82,27 @@ button{
     color: #ffffff;
     background: #8d02c4;
     cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button:hover{
     background-color: #3c0153;
 }
+/* Footer Section Start */
+
+.F-contant{
+display: inline-block;
+background: #9e5757;
+width: 100%;
+}
+.p{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+   
+}
+
+
+
+
+
+/* Footer Section End */
