@@ -5,6 +5,9 @@
 ### Objective
 Design and style a simple e-commerce product page using CSS, covering the topics of CSS comments, selectors, variables, typography, box model, and card design.
 
+![--](https://i.postimg.cc/MZ0KpXyd/Screenshot-2025-05-25-073619.png)
+![--](https://i.postimg.cc/nV1ptgJW/Screenshot-2025-05-25-073926.png)
+
 #### Instructions
 
 - How to do this assignment?
